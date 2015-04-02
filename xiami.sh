@@ -2,7 +2,7 @@
 
 startup()
 {
-	chromium-browser --app="http://www.xiami.com/radio/play/id/2" &
+	chromium-browser --app="http://www.xiami.com/radio" &
 	wid=`xdotool search --sync --name 虾小米打碟`
 	xdotool windowsize $wid 740 180
 	xdotool windowactivate --sync $wid key Home Down Down Down Down mousemove --window $wid 20 80 click 1
