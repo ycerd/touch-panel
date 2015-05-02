@@ -5,8 +5,6 @@
 # _browser="chromium-browser --app="
 ## google-chrome:
 _browser="google-chrome --app="
-## firefox:
-# _browser="firefox -new-tab "
 
 startup()
 {
